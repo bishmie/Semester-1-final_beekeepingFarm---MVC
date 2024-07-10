@@ -45,17 +45,17 @@ public class CustomerFormController {
     private TextField txtCustomerEmail;
    @FXML
     private TableView<CustomerTM> tblCustomerTable;
-@FXML
+  @FXML
     private AnchorPane rootNode;
-@FXML
+  @FXML
     private TableColumn<?,?> colCustomerId;
-@FXML
+  @FXML
     private TableColumn<?,?> colName;
-@FXML
+  @FXML
     private TableColumn<?,?> colAddress;
-@FXML
+  @FXML
     private TableColumn<?,?> colContact;
-@FXML
+  @FXML
     private TableColumn<?,?> colEmail;
 
     public void initialize() {
